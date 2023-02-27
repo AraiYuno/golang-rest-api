@@ -1,4 +1,4 @@
-//go:generate mockgen -destination=./mocks/http_mock.go -package mocks github.com/AraiYuno/golang-rest-api/internal/transport/http Users,DB
+//go:generate mockgen -destination=./mocks/http_mock.go -package mocks github.com/AraiYuno/golang-rest-api/internal/api/http Users,DB
 
 package http
 

@@ -3,13 +3,13 @@ package main
 import (
 	"context"
 
+	httptransport "github.com/AraiYuno/golang-rest-api/internal/api/http"
 	"github.com/AraiYuno/golang-rest-api/internal/config"
 	"github.com/AraiYuno/golang-rest-api/internal/core/app"
 	"github.com/AraiYuno/golang-rest-api/internal/core/drivers/psql"
 	"github.com/AraiYuno/golang-rest-api/internal/core/listeners/http"
 	"github.com/AraiYuno/golang-rest-api/internal/core/logging"
 	"github.com/AraiYuno/golang-rest-api/internal/events"
-	httptransport "github.com/AraiYuno/golang-rest-api/internal/transport/http"
 	"github.com/AraiYuno/golang-rest-api/internal/users"
 	"github.com/AraiYuno/golang-rest-api/internal/users/store"
 	"github.com/cenkalti/backoff/v4"

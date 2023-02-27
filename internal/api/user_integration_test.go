@@ -11,8 +11,8 @@ import (
 	"time"
 
 	"github.com/AlekSi/pointer"
-	httptransport "github.com/AraiYuno/golang-rest-api/internal/transport/http"
-	"github.com/AraiYuno/golang-rest-api/internal/transport/http/mocks"
+	httptransport "github.com/AraiYuno/golang-rest-api/internal/api/http"
+	"github.com/AraiYuno/golang-rest-api/internal/api/http/mocks"
 	"github.com/AraiYuno/golang-rest-api/internal/users/model"
 	"github.com/golang/mock/gomock"
 	"github.com/gorilla/mux"

@@ -7,8 +7,8 @@ import (
 	"net/http/httptest"
 	"testing"
 
-	httptransport "github.com/AraiYuno/golang-rest-api/internal/transport/http"
-	"github.com/AraiYuno/golang-rest-api/internal/transport/http/mocks"
+	httptransport "github.com/AraiYuno/golang-rest-api/internal/api/http"
+	"github.com/AraiYuno/golang-rest-api/internal/api/http/mocks"
 	"github.com/golang/mock/gomock"
 	"github.com/gorilla/mux"
 	"github.com/stretchr/testify/assert"
