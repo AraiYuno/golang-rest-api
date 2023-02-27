@@ -7,10 +7,10 @@ import (
 	"net/http/httptest"
 	"testing"
 
+	httptransport "github.com/AraiYuno/golang-rest-api/internal/transport/http"
+	"github.com/AraiYuno/golang-rest-api/internal/transport/http/mocks"
 	"github.com/golang/mock/gomock"
 	"github.com/gorilla/mux"
-	httptransport "github.com/speakeasy-api/rest-template-go/internal/transport/http"
-	"github.com/speakeasy-api/rest-template-go/internal/transport/http/mocks"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

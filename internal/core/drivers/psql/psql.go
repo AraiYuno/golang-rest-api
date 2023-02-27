@@ -3,9 +3,9 @@ package psql
 import (
 	"context"
 
+	"github.com/AraiYuno/golang-rest-api/internal/core/errors"
 	"github.com/jmoiron/sqlx"
 	_ "github.com/lib/pq" // imports the postgres driver
-	"github.com/speakeasy-api/rest-template-go/internal/core/errors"
 )
 
 const (

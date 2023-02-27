@@ -5,10 +5,10 @@ import (
 	"io"
 	"net/http"
 
+	"github.com/AraiYuno/golang-rest-api/internal/core/errors"
+	"github.com/AraiYuno/golang-rest-api/internal/core/logging"
+	"github.com/AraiYuno/golang-rest-api/internal/users/model"
 	"github.com/gorilla/mux"
-	"github.com/speakeasy-api/rest-template-go/internal/core/errors"
-	"github.com/speakeasy-api/rest-template-go/internal/core/logging"
-	"github.com/speakeasy-api/rest-template-go/internal/users/model"
 	"go.uber.org/zap"
 )
 
@@ -49,7 +49,7 @@ func (s *Server) createUser(w http.ResponseWriter, r *http.Request) {
 		handleError(ctx, w, err)
 		return
 	}
-
+	print("created user: ", createdUser)
 	handleResponse(ctx, w, createdUser)
 }
 

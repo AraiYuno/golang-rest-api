@@ -1,4 +1,4 @@
-module github.com/speakeasy-api/rest-template-go
+module github.com/AraiYuno/golang-rest-api
 
 go 1.18
 

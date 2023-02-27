@@ -9,11 +9,11 @@ import (
 	"time"
 
 	"github.com/AlekSi/pointer"
+	"github.com/AraiYuno/golang-rest-api/internal/core/drivers/psql"
+	"github.com/AraiYuno/golang-rest-api/internal/core/errors"
+	"github.com/AraiYuno/golang-rest-api/internal/users/model"
+	"github.com/AraiYuno/golang-rest-api/internal/users/store"
 	"github.com/ory/dockertest/v3"
-	"github.com/speakeasy-api/rest-template-go/internal/core/drivers/psql"
-	"github.com/speakeasy-api/rest-template-go/internal/core/errors"
-	"github.com/speakeasy-api/rest-template-go/internal/users/model"
-	"github.com/speakeasy-api/rest-template-go/internal/users/store"
 	"github.com/stretchr/testify/assert"
 	"github.com/stretchr/testify/require"
 )

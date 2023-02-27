@@ -3,9 +3,9 @@ package config
 import (
 	"os"
 
-	"github.com/speakeasy-api/rest-template-go/internal/core/drivers/psql"
-	"github.com/speakeasy-api/rest-template-go/internal/core/errors"
-	"github.com/speakeasy-api/rest-template-go/internal/core/listeners/http"
+	"github.com/AraiYuno/golang-rest-api/internal/core/drivers/psql"
+	"github.com/AraiYuno/golang-rest-api/internal/core/errors"
+	"github.com/AraiYuno/golang-rest-api/internal/core/listeners/http"
 	"gopkg.in/yaml.v2"
 )
 

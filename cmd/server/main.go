@@ -3,16 +3,16 @@ package main
 import (
 	"context"
 
+	"github.com/AraiYuno/golang-rest-api/internal/config"
+	"github.com/AraiYuno/golang-rest-api/internal/core/app"
+	"github.com/AraiYuno/golang-rest-api/internal/core/drivers/psql"
+	"github.com/AraiYuno/golang-rest-api/internal/core/listeners/http"
+	"github.com/AraiYuno/golang-rest-api/internal/core/logging"
+	"github.com/AraiYuno/golang-rest-api/internal/events"
+	httptransport "github.com/AraiYuno/golang-rest-api/internal/transport/http"
+	"github.com/AraiYuno/golang-rest-api/internal/users"
+	"github.com/AraiYuno/golang-rest-api/internal/users/store"
 	"github.com/cenkalti/backoff/v4"
-	"github.com/speakeasy-api/rest-template-go/internal/config"
-	"github.com/speakeasy-api/rest-template-go/internal/core/app"
-	"github.com/speakeasy-api/rest-template-go/internal/core/drivers/psql"
-	"github.com/speakeasy-api/rest-template-go/internal/core/listeners/http"
-	"github.com/speakeasy-api/rest-template-go/internal/core/logging"
-	"github.com/speakeasy-api/rest-template-go/internal/events"
-	httptransport "github.com/speakeasy-api/rest-template-go/internal/transport/http"
-	"github.com/speakeasy-api/rest-template-go/internal/users"
-	"github.com/speakeasy-api/rest-template-go/internal/users/store"
 	"go.uber.org/zap"
 )
 

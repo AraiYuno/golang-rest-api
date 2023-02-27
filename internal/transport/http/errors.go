@@ -6,8 +6,8 @@ import (
 	"net/http"
 	"strings"
 
-	"github.com/speakeasy-api/rest-template-go/internal/core/errors"
-	"github.com/speakeasy-api/rest-template-go/internal/core/logging"
+	"github.com/AraiYuno/golang-rest-api/internal/core/errors"
+	"github.com/AraiYuno/golang-rest-api/internal/core/logging"
 	"go.uber.org/zap"
 )
 

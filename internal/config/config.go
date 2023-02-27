@@ -5,11 +5,11 @@ import (
 	"fmt"
 	"os"
 
+	"github.com/AraiYuno/golang-rest-api/internal/core/config"
+	"github.com/AraiYuno/golang-rest-api/internal/core/errors"
+	"github.com/AraiYuno/golang-rest-api/internal/core/logging"
 	"github.com/caarlos0/env/v6"
 	"github.com/go-playground/validator/v10"
-	"github.com/speakeasy-api/rest-template-go/internal/core/config"
-	"github.com/speakeasy-api/rest-template-go/internal/core/errors"
-	"github.com/speakeasy-api/rest-template-go/internal/core/logging"
 	"go.uber.org/zap"
 	"gopkg.in/yaml.v2"
 )

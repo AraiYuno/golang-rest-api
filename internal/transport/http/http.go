@@ -1,4 +1,4 @@
-//go:generate mockgen -destination=./mocks/http_mock.go -package mocks github.com/speakeasy-api/rest-template-go/internal/transport/http Users,DB
+//go:generate mockgen -destination=./mocks/http_mock.go -package mocks github.com/AraiYuno/golang-rest-api/internal/transport/http Users,DB
 
 package http
 
@@ -7,8 +7,8 @@ import (
 	"encoding/json"
 	"net/http"
 
+	"github.com/AraiYuno/golang-rest-api/internal/users/model"
 	"github.com/gorilla/mux"
-	"github.com/speakeasy-api/rest-template-go/internal/users/model"
 )
 
 // Users represents a type that can provide CRUD operations on users.

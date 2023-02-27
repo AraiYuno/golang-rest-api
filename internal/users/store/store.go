@@ -6,10 +6,10 @@ import (
 	"strings"
 	"time"
 
+	"github.com/AraiYuno/golang-rest-api/internal/core/errors"
+	"github.com/AraiYuno/golang-rest-api/internal/users/model"
 	"github.com/jmoiron/sqlx"
 	"github.com/lib/pq"
-	"github.com/speakeasy-api/rest-template-go/internal/core/errors"
-	"github.com/speakeasy-api/rest-template-go/internal/users/model"
 )
 
 const (
